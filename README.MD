@@ -93,7 +93,3 @@ chatbot.load_vectorstore("your_path")
 - For large documents, consider increasing chunk size and overlap
 - Choose the appropriate LLM model based on your needs (gpt-3.5-turbo is faster, gpt-4 is more accurate)
 - When deploying in production, implement proper rate limiting and error handling
-
-## License
-
-This project is licensed under the MIT License.
