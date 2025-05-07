@@ -58,9 +58,7 @@ streamlit run streamlit_app.py
 
 This will open a browser window with the chatbot interface. You'll need to:
 1. Enter your OpenAI API key
-2. Upload your JSON knowledge base file
-3. Click "Initialize/Reset Chatbot"
-4. Start asking questions!
+2. Start asking questions!
 
 ## Data Format
 
@@ -80,15 +78,6 @@ The chatbot expects a JSON file with the following structure:
   ]
 }
 ```
-
-## Customization
-
-You can modify the following aspects of the chatbot:
-
-- LLM model: Change the model in `RAGChatbot` initialization 
-- Text splitting parameters: Adjust chunk size and overlap in `create_vectorstore`
-- Retrieval parameters: Modify search parameters in `build_retrieval_chain`
-- Prompt template: Customize the prompt in `build_retrieval_chain`
 
 ## Saving and Loading
 
